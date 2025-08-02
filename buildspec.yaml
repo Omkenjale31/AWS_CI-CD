@@ -14,7 +14,7 @@ phases:
 
   post_build:
     commands:
-      - echo "Build Completed on 'date'"
+      - echo "Build Completed"
       - mkdir -p deploy
       - cp -r * deploy/
       #- cp appspec.yaml deploy/
